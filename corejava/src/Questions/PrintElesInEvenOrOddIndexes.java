@@ -1,0 +1,19 @@
+package Questions;
+
+public class PrintElesInEvenOrOddIndexes {
+
+	public static void main(String[] args) {
+		
+		String[] techs= {"Selenium","java","testNg","cucumber","poi","excel","maven","pom","tdd","bdd","junit","jmeter"};
+		
+		for(int i=0;i<techs.length;i=i+2) {
+			System.out.println(techs[i]);
+		}
+		System.out.println("___________________________________");
+		for(int i=1;i<techs.length;i=i+2) {
+			System.out.println(techs[i]);
+		}
+
+	}
+
+}

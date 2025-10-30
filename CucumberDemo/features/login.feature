@@ -1,0 +1,10 @@
+Feature: User login
+
+	Scenario: Successful Login
+		Given the user is on the ecommerce login  page
+		When the user enters the valid credintials (username:"test@gmail.com", password:"test@123")
+		And the user clicks on the login button
+		Then the user should be redirected to the My Account page
+		And the user shoiuld see a welcome messsage
+		
+	

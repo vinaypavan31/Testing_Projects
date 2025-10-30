@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.eclipse.debug.core.PREF_BREAKPOINT_MANAGER_ENABLED_STATE=true
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n    <expression enabled\="true" text\="System"/>\r\n    <expression enabled\="true" text\="String amtstatement\=driver.findElement(By.className(&quot;totalAmount&quot;)).getText();"/>\r\n    <expression enabled\="true" text\="String amtstatement\=driver.findElement(By.className(&quot;totalAmount&quot;)).getText().split(&quot; &quot;)"/>\r\n    <expression enabled\="true" text\="&\#9;&\#9;Scanner sc\= new Scanner(System.in);"/>\r\n    <expression enabled\="true" text\="int num\=sc.nextInt();"/>\r\n    <expression enabled\="true" text\="7"/>\r\n</watchExpressions>\r\n

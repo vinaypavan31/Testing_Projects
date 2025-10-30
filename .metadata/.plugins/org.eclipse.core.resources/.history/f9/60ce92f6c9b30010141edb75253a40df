@@ -1,0 +1,21 @@
+
+package Questions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReverseAnArray {
+
+	public static void main(String[] args) {
+		int[] arr= {2,4,6,7,8,9,30};
+		List<Integer> ls=new ArrayList<Integer>();
+		for(int x:arr) {
+			ls.add(x);
+		}
+		List<Integer> p=ls.reversed();
+		Object[] reversed=p.toArray();
+		System.out.println(reversed);
+	}
+	
+
+}

@@ -1,0 +1,35 @@
+package Questions;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		//divides only by 1 and itself
+		System.out.println("Enter a number to check wheather it is a prime or not");
+		Scanner sc=new Scanner(System.in);
+		int number=sc.nextInt();
+		
+		
+		//not divides by 2, not divides by any other number
+		
+		if(number<=0) {
+			System.out.println("enter a natural number");
+		}
+		else if(number >0) {
+			for(int i=2;i<number/2;i++) {
+				if(number%i==0) {
+					System.out.println("Not a Prime");
+				}
+				else {
+					System.out.println("is Prime");
+				}
+			}
+		}
+		
+		
+
+	}
+	
+
+}

@@ -1,0 +1,23 @@
+package Questions;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class SortArrayNobuiltinmethod {
+
+	public static void main(String[] args) {
+		int[] arr= {13,5,7,5,8,98,23,43,56,76};
+		
+		Arrays.sort(arr);
+		for(int i:arr) {
+			System.out.println(i);
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

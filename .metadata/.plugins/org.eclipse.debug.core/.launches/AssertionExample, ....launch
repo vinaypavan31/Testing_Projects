@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNGProjectone"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="Assertion.AssertionExample" value="Method3;Method2;Method5;Method1;Method4"/>
+        <mapEntry key="DataProv.DataProviderAcceptanceExample" value="acceptanceTest"/>
+        <mapEntry key="DataProv.DataProviderIntegrationTest" value="IntegrationTest"/>
+        <mapEntry key="DataProv.DataProviderParameterExample" value="commonScenario;scenario1;scenario2"/>
+        <mapEntry key="DataProv.DataProviderSource" value="getTestTypeData;getScenarioData"/>
+        <mapEntry key="Depend.MultiTestDependency" value="process;init;stop;start"/>
+        <mapEntry key="Grouping.Group" value="TC5;TC1;TC2;TC3;TC4"/>
+        <mapEntry key="Listeners.DemoListeners" value="OnTestStart;OnTestSuccess;OnTestSkipped;OnTestFailure"/>
+        <mapEntry key="Listeners.SampleTestClass" value="testFour;testGetData;dataprovider;testOne;testThree"/>
+        <mapEntry key="One.FBProfileTest" value="checkProfileLogo;checkProfileLink"/>
+        <mapEntry key="One.FaceBookLogin" value="loginwithInvalidCredentials;loginwithvalidCredentials"/>
+        <mapEntry key="One.Sampletest" value="BeforeSuiteMethod;AfterSuiteMethod"/>
+        <mapEntry key="Parameters.Para" value="TC1;TC2"/>
+        <mapEntry key="Parameters.TestParaEx" value="testAddtion;getDataSet2;getData"/>
+        <mapEntry key="Skip.SkipTest" value="TestTwo;TestFour;TestThree;TestOne;TestFive"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="Parameters.Para"/>
+        <listEntry value="DataProv.DataProviderAcceptanceExample"/>
+        <listEntry value="DataProv.DataProviderParameterExample"/>
+        <listEntry value="Grouping.Group"/>
+        <listEntry value="Listeners.SampleTestClass"/>
+        <listEntry value="Skip.SkipTest"/>
+        <listEntry value="One.Sampletest"/>
+        <listEntry value="Depend.MultiTestDependency"/>
+        <listEntry value="One.FBProfileTest"/>
+        <listEntry value="DataProv.DataProviderIntegrationTest"/>
+        <listEntry value="Assertion.AssertionExample"/>
+        <listEntry value="Listeners.DemoListeners"/>
+        <listEntry value="Parameters.TestParaEx"/>
+        <listEntry value="One.FaceBookLogin"/>
+        <listEntry value="DataProv.DataProviderSource"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

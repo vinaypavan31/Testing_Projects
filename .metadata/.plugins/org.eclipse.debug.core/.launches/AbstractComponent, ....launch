@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumFrameworkDesign"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="vinay.AbstractComponents.AbstractComponent" value="goToCartPage;AbstractComponent;waitForWebElementToVisible;goToOrdersPage;waitForElementToAppear;waitForElementToDisappear;waitForWebElementToAppear"/>
+        <mapEntry key="vinay.Resources.ExtentReporterNG" value="getReportObject"/>
+        <mapEntry key="vinay.TestComponents.Basetest" value="tearDown;launchApplication;getJSONDataToMap;initializeDriver"/>
+        <mapEntry key="vinay.pageobjects.CartPage" value="CartPage;VerifyProductDisplay;goToCheckOut"/>
+        <mapEntry key="vinay.pageobjects.CheckoutPage" value="submitOrder;selectCountry;CheckoutPage"/>
+        <mapEntry key="vinay.pageobjects.LandingPage" value="loginApplication;LandingPage;getErrorMessage;goTo"/>
+        <mapEntry key="vinay.pageobjects.LastPage" value="getThanksMessage;LastPage"/>
+        <mapEntry key="vinay.pageobjects.OrderPage" value="VerifyOrderDisplay;OrderPage"/>
+        <mapEntry key="vinay.pageobjects.ProductCatalouge" value="addProductToCart;ProductCatalouge;getProductByName;getProductList"/>
+        <mapEntry key="vinay.tests.ErrorValidationTest" value="LoginErrorValidation;AProductErrorValidation"/>
+        <mapEntry key="vinay.tests.StandAloneTest" value="getData;standAloneTest"/>
+        <mapEntry key="vinay.tests.SubmitOrderTest" value="submitOrder;getData;OrderHistoryTest;getScreenshot"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="vinay.pageobjects.LandingPage"/>
+        <listEntry value="vinay.pageobjects.CartPage"/>
+        <listEntry value="vinay.Resources.ExtentReporterNG"/>
+        <listEntry value="vinay.pageobjects.ProductCatalouge"/>
+        <listEntry value="vinay.tests.ErrorValidationTest"/>
+        <listEntry value="vinay.tests.StandAloneTest"/>
+        <listEntry value="vinay.pageobjects.OrderPage"/>
+        <listEntry value="vinay.pageobjects.CheckoutPage"/>
+        <listEntry value="vinay.data.DataReader"/>
+        <listEntry value="vinay.TestComponents.Basetest"/>
+        <listEntry value="vinay.pageobjects.LastPage"/>
+        <listEntry value="vinay.AbstractComponents.AbstractComponent"/>
+        <listEntry value="vinay.tests.SubmitOrderTest"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

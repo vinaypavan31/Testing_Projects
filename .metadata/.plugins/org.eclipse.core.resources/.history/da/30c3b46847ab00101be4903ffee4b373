@@ -1,0 +1,22 @@
+package Questions;
+
+import java.util.ArrayList;
+
+public class SortArrayNobuiltinmethod {
+
+	public static void main(String[] args) {
+		int[] arr= {13,5,7,5,8,98,23,43,56,76};
+		
+		for(int i=0;i<arr.length-1;i++) {
+			if(arr[i]>arr[i+1]) {
+				arr[i]=arr[i+1];
+			}
+		}
+		ArrayList ls=new ArrayList();
+		ls.add(arr);
+		System.out.println(ls);
+		
+
+	}
+
+}
