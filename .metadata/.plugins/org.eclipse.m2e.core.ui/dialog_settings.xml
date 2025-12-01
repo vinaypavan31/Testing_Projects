@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\arpavan\eclipse-workspace\corejava\src\lambdaEX\MethodRefDemo.java"/>
 			<item value="C:\Users\arpavan\eclipse-workspace\ExcelDriven\src\test\java\testSample.java"/>
 			<item value="C:\Users\arpavan\eclipse-workspace\TestNGTutorial"/>
 			<item value="C:\Users\arpavan\eclipse-workspace\TestNGTutorial\src\javatopics\PS.java"/>
@@ -49,6 +50,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="CoreJavaStreams"/>
+			<item value="CoreJava"/>
 			<item value="CucumberDemo"/>
 			<item value="dataDriven"/>
 			<item value="Framework"/>
@@ -56,6 +59,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JavaStreams"/>
+			<item value="Corejava"/>
 			<item value="CucumberDemo"/>
 			<item value="excelDataProvider"/>
 			<item value="ExcelDriven"/>
